@@ -1,16 +1,6 @@
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
-
-
-
-
-
-
-
-
-
-
 #define start 13
 #define P1U 6
 #define P1D 7
@@ -39,10 +29,6 @@ boolean game = 0;
 int a = 0;
 
 void setup() {
-
-  
-  
-
   pinMode(P1U, INPUT);      
   pinMode(P1D, INPUT);
   pinMode(P2U, INPUT);
@@ -65,9 +51,7 @@ void setup() {
   lcd.print("Group-10");
   delay(3000);
 }
-void loop() {
-
-  
+void loop() {  
   while (game == 0) {
     for (a; a < 1; a++) {
       for (int i = 0; i < 16; i++) {
