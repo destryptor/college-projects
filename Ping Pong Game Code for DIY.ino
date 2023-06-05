@@ -201,15 +201,10 @@ void loop() {
       lcd.print("P2 won!");
 
       
-      for (int i = 0; i < 3; i++) {
-        
-       
+      for (int i = 0; i < 3; i++) {     
         piezoSound(500);
-        
         delay(500);
       }
-
-      
       score1 = score2 = 0;
       delay(1000);
       game = 0;
@@ -242,14 +237,9 @@ void loop() {
 
       
       for (int i = 0; i < 3; i++) {
-        
-        
         piezoSound(500);
-       
         delay(500);
       }
-
-      
       score1 = score2 = 0;
       delay(1000);
       game = 0;
